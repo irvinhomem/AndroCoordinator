@@ -1,0 +1,9 @@
+<resources>
+    <!-- MainActivity Strings-->
+    <string name="app_name">AndroCoordinator</string>
+    <string name="btn_fab_and_snackbar">FAB and SnackBar</string>
+    <string name="btn_fab_follows_widget">FAB follows Widget</string>
+    <string name="btn_collapsing_toolbar">Collapsing Toolbar</string>
+    <string name="btn_custom_behaviour">Custom Behaviour</string>
+
+</resources>
