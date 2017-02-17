@@ -35,4 +35,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openFab_follows_Widget(View view){
+        //Do something in response to the attacehd BUTTON click
+        Intent intent = new Intent(this, FabFollowsWidgetActivity.class);
+        startActivity(intent);
+    }
+
 }

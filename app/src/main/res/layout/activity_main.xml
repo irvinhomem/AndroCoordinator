@@ -37,7 +37,8 @@
         android:layout_alignRight="@+id/btn_fab_and_snackbar"
         android:layout_alignEnd="@+id/btn_fab_and_snackbar"
         android:layout_marginTop="21dp"
-        android:id="@+id/button2" />
+        android:id="@+id/button2"
+        android:onClick="openFab_follows_Widget"/>
 
     <Button
         android:text="@string/btn_collapsing_toolbar"

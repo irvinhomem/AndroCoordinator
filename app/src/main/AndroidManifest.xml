@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FabAndSnackbarActivity"></activity>
+        <activity android:name=".FabAndSnackbarActivity" />
+        <activity android:name=".FabFollowsWidgetActivity"></activity>
     </application>
 
 </manifest>
