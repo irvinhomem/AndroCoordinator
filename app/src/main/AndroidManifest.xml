@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".FabAndSnackbarActivity" />
-        <activity android:name=".FabFollowsWidgetActivity"></activity>
+        <activity android:name=".FabFollowsWidgetActivity" />
+        <activity android:name=".CollapsingToolbarActivity"></activity>
     </application>
 
 </manifest>

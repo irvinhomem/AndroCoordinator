@@ -10,7 +10,7 @@
     <string name="show_snackbar">Open up Snackbar</string>
 
     <!-- FAB follows Widget Strings -->
-   <!--  <string name="app_name">UsingCoordinatorLayout</string> -->
+    <!--  <string name="app_name">UsingCoordinatorLayout</string> -->
 
     <string name="fab_and_snackbar">Fab And Snackbar</string>
     <string name="fab_two_widgets">Fab Follows Widget</string>

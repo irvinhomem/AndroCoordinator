@@ -41,4 +41,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openCollapsingToolbar(View view){
+        //Do something in response to the attacehd BUTTON click
+        Intent intent = new Intent(this, CollapsingToolbarActivity.class);
+        startActivity(intent);
+    }
+
 }
