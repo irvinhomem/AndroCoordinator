@@ -6,4 +6,7 @@
     <string name="btn_collapsing_toolbar">Collapsing Toolbar</string>
     <string name="btn_custom_behaviour">Custom Behaviour</string>
 
+    <!-- Fab_and_Snackbar Strings -->
+    <string name="show_snackbar">Open up Snackbar</string>
+
 </resources>
