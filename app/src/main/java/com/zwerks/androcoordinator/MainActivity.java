@@ -1,7 +1,9 @@
 package com.zwerks.androcoordinator;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,4 +28,11 @@ public class MainActivity extends AppCompatActivity {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
+
+    public void openFab_n_SnackBar(View view){
+        //Do something in response to the attacehd BUTTON click
+        Intent intent = new Intent(this, FabAndSnackbarActivity.class);
+        startActivity(intent);
+    }
+
 }

@@ -26,15 +26,16 @@
         android:layout_marginLeft="31dp"
         android:layout_marginStart="31dp"
         android:layout_marginTop="33dp"
-        android:id="@+id/button" />
+        android:id="@+id/btn_fab_and_snackbar"
+        android:onClick="openFab_n_SnackBar"/>
 
     <Button
         android:text="@string/btn_fab_follows_widget"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button"
+        android:layout_below="@+id/btn_fab_and_snackbar"
+        android:layout_alignRight="@+id/btn_fab_and_snackbar"
+        android:layout_alignEnd="@+id/btn_fab_and_snackbar"
         android:layout_marginTop="21dp"
         android:id="@+id/button2" />
 
