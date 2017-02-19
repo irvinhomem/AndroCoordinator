@@ -47,4 +47,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openCustomBehaviour(View view){
+        //Do something in response to the attacehd BUTTON click
+        Intent intent = new Intent(this, CustomBehaviourActivity.class);
+        startActivity(intent);
+    }
 }
