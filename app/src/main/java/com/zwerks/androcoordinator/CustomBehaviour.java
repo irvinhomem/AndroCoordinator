@@ -22,13 +22,13 @@ public class CustomBehaviour extends CoordinatorLayout.Behavior<CircleImageView>
         super(context, attrs);
     }
 
-    // The layoutDependsOn method is overridden  to specify which class of Views we want to watch out for
+    // The "layoutDependsOn" method is overridden  to specify which class of Views we want to watch out for
     @Override
     public boolean layoutDependsOn(CoordinatorLayout parent, CircleImageView child, View dependency) {
         return dependency instanceof Toolbar;
     }
 
-    // The onDependentViewChanged method is overridden so as to specify what should happen when the dependent view has changed
+    // The "onDependentViewChanged" method is overridden so as to specify what should happen when the dependent view has changed
     @Override
     public boolean onDependentViewChanged(CoordinatorLayout parent, CircleImageView child, View dependency) {
         int[] dependencyLocation = new int[2];
