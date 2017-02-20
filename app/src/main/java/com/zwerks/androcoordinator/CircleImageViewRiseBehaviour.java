@@ -17,6 +17,8 @@ import de.hdodenhof.circleimageview.CircleImageView;
  * Created by irvin on 20/02/2017.
  */
 
+// THIS CLASS WAS UNNECESSARTY ... FIGURED OUT HOW TO DO IT WITHIN ONE CUSTOM BEHAVIOUR CLASS INSTEAD OF HAVING MULTIPLe
+// PERHAPS THERE MIGHT BE A WAY TO CREATE MULTIPLE BEHAVIOUR CLASSES FOR A SINGLE VIEW OBJECT ... but i haven't discovered this yet
 public class CircleImageViewRiseBehaviour extends CoordinatorLayout.Behavior<CircleImageView> {
 
     String LOG_TAG = this.getClass().getSimpleName();
