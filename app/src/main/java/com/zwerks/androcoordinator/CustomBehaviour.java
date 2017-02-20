@@ -26,8 +26,11 @@ public class CustomBehaviour extends CoordinatorLayout.Behavior<CircleImageView>
     // The "layoutDependsOn" method is overridden  to specify which class of Views we want to watch out for
     @Override
     public boolean layoutDependsOn(CoordinatorLayout parent, CircleImageView child, View dependency) {
-        return dependency instanceof Toolbar || dependency instanceof Snackbar.SnackbarLayout;
+        // For single dependencies you only need one "dependency instanceof xyz"
         //return dependency instanceof Toolbar;
+        // For multiple dependencies you can use the OR(||) to combine multiple views that are to be "Depended On"
+        return dependency instanceof Toolbar || dependency instanceof Snackbar.SnackbarLayout;
+
     }
 
     // The "onDependentViewChanged" method is overridden so as to specify what should happen when the dependent view has changed
@@ -50,6 +53,7 @@ public class CustomBehaviour extends CoordinatorLayout.Behavior<CircleImageView>
             child.setScaleY(1+scale);
         }
 
+        /** Added these lines below to deal with the 2nd dependency i.e on the Snackbar sliding in and out of the screen */
         //Check for the current height of the Snackbar, and Translate the childView on the Y-axis by the height
         //"Dependency" here is the Snackbar and "child" is the CircleImageView
         if(dependency instanceof Snackbar.SnackbarLayout){
